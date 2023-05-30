@@ -1,0 +1,128 @@
+/* HEADER */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #212428;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: darkcyan;
+    position: fixed;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+/* SECCION1 */
+.espacio{
+    padding-bottom: 8rem;
+}
+.hero{
+    background-color: darkgoldenrod;
+    display: flex;
+    height: 70vh;  
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hero .DivInfo{
+    display: flex;
+    margin-top: 5rem;
+    
+}
+
+/* SECCION2 */
+
+.SectionDos{
+    background-color: darkkhaki;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.SectionDos .DivInfo{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+/* SECTION3 */
+
+.SectionTres{
+    background-color: darkolivegreen;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.SectionTres .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionTres .DivInfo{
+    display: flex;
+}
+
+/* SECTION4 */
+
+.SectionCuatro{
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(99, 76, 99);
+}
+
+.SectionCuatro .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SECTON5 */
+
+.SectionCinco{
+    background-color: rgb(87, 87, 122);
+    width: 75%;
+    margin: 0 auto;
+}
+
+.SectionCinco .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionCinco .DivInfo{
+    display: flex;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: darkgrey;
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
