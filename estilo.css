@@ -1,9 +1,14 @@
-/* HEADER */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
+button{
+    border: none;
+}
 body{
     background-color: #212428;
 }
@@ -13,17 +18,21 @@ a{
     color: black;
 }
 
+/* HEADER */
+
+
 header{
-    background-color: darkcyan;
+    background-color: #212428;
     position: fixed;
     width: 100%;
+    align-items: center;
 }
 
 header nav{
+    height: 3.2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 1rem 1rem;
+    margin: 0.5rem 1rem;
 }
 
 nav div{
@@ -31,6 +40,57 @@ nav div{
     align-items: center;
 }
 
+header nav h2{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+
+nav .texto a{
+    font-family: 'PT Sans', sans-serif;
+    color: gray;
+    font-size: 0.6rem;
+    margin: 0 1.5rem;
+}
+nav .texto .DivInfo{
+    color: white;
+}
+
+nav .boton {
+    height: 2rem;
+    width: 6rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c2c2c, 0.5rem 0.2rem 0.7rem #1a1919;
+    background-color: #212428;
+}
+
+nav .boton a{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+nav .boton:hover{
+    transform: scale(1.1);
+    box-shadow: -0.1rem -0.1rem 0.7rem #2c2c2c, 0.4rem 0.1rem 0.7rem #1a1919;
+    background-color: #3f3f3f;
+}
+
+nav .boton{
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+nav .texto .TextoDos:hover{
+    text-decoration: underline;
+
+}
+nav .texto .DivInfo:hover{
+    text-decoration: underline;
+
+}
 /* SECCION1 */
 .espacio{
     padding-bottom: 8rem;
