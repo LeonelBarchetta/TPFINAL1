@@ -70,7 +70,7 @@ nav .boton a{
     margin: 0;
     align-items: center;
     justify-content: center;
-    color: red;
+    color: #DE0748;
 }
 
 nav .boton:hover{
@@ -101,9 +101,9 @@ nav .texto .DivInfo:hover{
     align-items: end;
     width: 75%;
     margin: 0 auto;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     justify-content: space-between;
-    
+    border-bottom: 0.09rem solid #111214;
 }
 
 .hero .texto{
@@ -133,7 +133,7 @@ nav .texto .DivInfo:hover{
 }
 
 .hero .texto strong{
-    color: red;
+    color: #DE0748;
     font-weight: bolder;
 }
 
@@ -206,23 +206,66 @@ nav .texto .DivInfo:hover{
 /* SECCION2 */
 
 .SectionDos{
-    background-color: darkkhaki;
+    background-color: #212428;
     width: 75%;
     margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.09rem solid #111214;
 }
 
 .SectionDos .DivInfo{
     display: flex;
     margin-top: 2rem;
-    
+    justify-content: space-between;
 }
 
+.SectionDos .texto p{
+    font-family: 'PT Sans', sans-serif;
+    color: #DE0748;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.SectionDos .texto h2{
+    font-family: 'PT Sans', sans-serif;
+    color: gainsboro;
+    font-size: 2.5rem;
+}
+
+.SectionDos .DivInfo .DivInfoDos{
+    height: 10rem;
+    width: 15rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    background-color: #1e2024;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionDos  .DivInfoDos h3{
+    color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.SectionDos  .DivInfoDos p{
+    color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
 /* SECTION3 */
 
 .SectionTres{
-    background-color: darkolivegreen;
+    background-color: #212428;
     width: 75%;
     margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    border-bottom: 0.09rem solid #111214;
 }
 
 .SectionTres .texto{
@@ -233,8 +276,46 @@ nav .texto .DivInfo:hover{
 
 .SectionTres .DivInfo{
     display: flex;
+    justify-content: space-between;
 }
 
+.SectionTres .texto p{
+    color: #DE0748;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.SectionTres .texto h2{
+    font-family: 'PT Sans', sans-serif;
+    color: gainsboro;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.SectionTres .DivInfo .DivInfoDos{
+    height: 10rem;
+    width: 15rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    background-color: #1e2024;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionTres .DivInfoDos div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    color: #DE0748;
+}
+
+.SectionTres .DivInfoDos h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    color: gainsboro;
+}
 /* SECTION4 */
 
 .SectionCuatro{
@@ -270,13 +351,27 @@ nav .texto .DivInfo:hover{
 /* FOOTER */
 
 footer{
-    background-color: darkgrey;
+    background-color: #212428;
     width: 75%;
     margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 footer div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer h2{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-size: 0.6rem;
 }
