@@ -147,7 +147,7 @@ nav .texto .DivInfo:hover{
 
 .hero .texto .TextoTres{
     font-family: 'Poppins', sans-serif;
-    color: gainsboro;
+    color: #C4D0DF;
     font-size: 0.7rem;
     width: 100%;
 }
@@ -229,7 +229,7 @@ nav .texto .DivInfo:hover{
 
 .SectionDos .texto h2{
     font-family: 'PT Sans', sans-serif;
-    color: gainsboro;
+    color: #C4D0DF;
     font-size: 2.5rem;
 }
 
@@ -246,16 +246,22 @@ nav .texto .DivInfo:hover{
 }
 
 .SectionDos  .DivInfoDos h3{
-    color: gainsboro;
+    color: #C4D0DF;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     margin-bottom: 1rem;
+   
 }
 
 .SectionDos  .DivInfoDos p{
-    color: gainsboro;
+    color: #C4D0DF;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+}
+
+.SectionDos .DivInfoDos img{
+    height: 2rem;
+    margin-bottom: 1rem;
 }
 /* SECTION3 */
 
@@ -279,6 +285,12 @@ nav .texto .DivInfo:hover{
     justify-content: space-between;
 }
 
+.SectionTres .DivInfo img{
+    height: 8.3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .SectionTres .texto p{
     color: #DE0748;
     font-size: 0.7rem;
@@ -288,24 +300,25 @@ nav .texto .DivInfo:hover{
 
 .SectionTres .texto h2{
     font-family: 'PT Sans', sans-serif;
-    color: gainsboro;
+    color: #C4D0DF;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
 .SectionTres .DivInfo .DivInfoDos{
-    height: 10rem;
-    width: 15rem;
+    
+    width: 13rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
     background-color: #1e2024;
     background: linear-gradient(to bottom right, #1E2125, #23272B);
+    
 }
 
-.SectionTres .DivInfoDos div p{
+.SectionTres .DivInfoDos .TextoDos .TextoTres{
     font-family: 'Poppins', sans-serif;
     font-size: 0.7rem;
     color: #DE0748;
@@ -314,14 +327,49 @@ nav .texto .DivInfo:hover{
 .SectionTres .DivInfoDos h3{
     font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
-    color: gainsboro;
+    color: #C4D0DF;
+    margin-bottom: 0.5rem;
+}
+
+.SectionTres .DivInfoDos .TextoDos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.SectionTres .DivInfoDos .icono{
+    height: 0.5rem;
+    margin-right: 0.2rem;
+}
+
+.SectionTres .DivInfoDos p{
+    color: gray;
+    font-size: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.SectionTres .TextoDos div{
+    display: flex;
+
+}
+
+.SectionTres .DivInfoDos:hover{
+    transform: scale(1.1);
+}
+
+.SectionTres .DivInfoDos{
+    transition: background 0.3s,
+                transform 0.2s;
 }
 /* SECTION4 */
 
 .SectionCuatro{
     width: 75%;
     margin: 0 auto;
-    background-color: rgb(99, 76, 99);
+    background-color: #212428;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.09rem solid #111214;
 }
 
 .SectionCuatro .texto{
@@ -330,12 +378,26 @@ nav .texto .DivInfo:hover{
     align-items: center;
 }
 
+.SectionCuatro .texto p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    color: #DE0748;
+}
+
+.SectionCuatro .texto h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
+    color: gainsboro;
+}
 /* SECTON5 */
 
 .SectionCinco{
-    background-color: rgb(87, 87, 122);
+    background-color: #212428;
     width: 75%;
     margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.09rem solid #111214;
 }
 
 .SectionCinco .texto{
@@ -346,8 +408,28 @@ nav .texto .DivInfo:hover{
 
 .SectionCinco .DivInfo{
     display: flex;
+    justify-content: space-between;
 }
 
+.SectionCinco .DivInfo .DivInfoDos{
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.SectionCinco .texto p{
+    color: #DE0748;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.SectionCinco .texto h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
+    color: gainsboro;
+    margin-bottom: 2rem;
+}
 /* FOOTER */
 
 footer{
