@@ -354,7 +354,7 @@ nav .texto .DivInfo:hover{
 }
 
 .SectionTres .DivInfoDos:hover{
-    transform: scale(1.1);
+    background: linear-gradient(to bottom right, #1f2225, #3d444b);
 }
 
 .SectionTres .DivInfoDos{
@@ -409,12 +409,14 @@ nav .texto .DivInfo:hover{
 .SectionCinco .DivInfo{
     display: flex;
     justify-content: space-between;
+  
 }
 
 .SectionCinco .DivInfo .DivInfoDos{
     box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
-    border-radius: 1rem;
-    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 16.2rem;
 }
 
 .SectionCinco .texto p{
@@ -429,6 +431,193 @@ nav .texto .DivInfo:hover{
     font-size: 2.5rem;
     color: gainsboro;
     margin-bottom: 2rem;
+}
+
+.SectionCinco .DivInfo img{
+    height: 9rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.SectionCinco .DivInfoDos h3{
+    font-family: 'Poppins', sans-serif;
+    color: #C4D0DF;
+    margin-bottom: 0.2rem;
+}
+
+.SectionCinco .DivInfoDos p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    
+}
+
+.SectionCinco .DivInfoDos h4{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-size: 0.7rem;
+    font-weight: normal;
+    
+}
+
+.SectionCinco .DivInfoDos strong{
+    color: #C4D0DF;
+    font-weight: normal;
+}
+
+.SectionCinco .DivInfoDos .TextoDos{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    margin-top: 1.5rem;
+}
+
+.SectionCinco .DivInfoDos .TextoTres{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.SectionCinco .DivInfoDos .icono{
+    display: flex;
+    height: 2.2rem;
+    width: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    background-color: #1e2024;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionCinco .DivInfoDos .icono img{
+    border-radius: 0;
+    margin: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    
+}
+
+.SectionCinco .DivInfoDos .icono:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to bottom right, #1f2225, #3d444b);
+
+}
+
+.SectionCinco .DivInfoDos .icono{
+    transition: background 0.3s,
+    transform 0.2s;
+}
+
+.SectionCinco .DivInfo .DivInfoTres{
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 25rem;
+}
+
+.SectionCinco .divuno{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.SectionCinco .divuno p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.SectionCinco .divuno input{
+    width: 11.5rem;
+    height: 1.8rem;
+    border-radius: 0.3rem;
+    background-color: #191B1E;
+    border: 0.001rem solid rgb(24, 24, 24);
+    border-bottom: 0.06rem solid rgb(77, 77, 77);
+    border-top: 0.09rem solid black;
+    color: white;
+}
+
+.SectionCinco .divdos p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.SectionCinco .divdos input{
+    width: 100%;
+    height: 1.8rem;
+    border-radius: 0.3rem;
+    background-color: #191B1E;
+    border: 0.001rem solid rgb(24, 24, 24);
+    border-bottom: 0.06rem solid rgb(77, 77, 77);
+    border-top: 0.09rem solid black;
+    color: white;
+}
+
+.SectionCinco .divtres p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.SectionCinco .divtres input{
+    width: 100%;
+    height: 8rem;
+    border-radius: 0.3rem;
+    background-color: #191B1E;
+    border: 0.001rem solid rgb(24, 24, 24);
+    border-bottom: 0.06rem solid rgb(77, 77, 77);
+    border-top: 0.09rem solid black;
+    margin-bottom: 1rem;
+    color: white;
+    
+}
+
+.SectionCinco .divtres .boton{
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    background-color: #212428;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionCinco .boton a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SectionCinco .divtres .boton p{
+    align-items: center;
+    justify-content: center;
+    color: #DE0748;
+    margin-right: 0.3rem;
+}
+
+.SectionCinco .divtres .boton img{
+    margin: 0;
+    height: 0.5rem;
+}
+
+.SectionCinco .divtres .boton:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to bottom right, #1f2225, #3d444b);
+}
+
+.SectionCinco .divtres .boton{
+    transition: background 0.3s,
+    transform 0.2s;
 }
 /* FOOTER */
 
