@@ -706,7 +706,7 @@ nav .texto .DivInfo:hover{
     margin-top: 0.5rem;
 }
 
-.SectionCinco .divtres input{
+.SectionCinco .divtres textarea{
     
     width: 100%;
     height: 8rem;
@@ -717,7 +717,7 @@ nav .texto .DivInfo:hover{
     border-top: 0.09rem solid black;
     margin-bottom: 1rem;
     color: white;
-    
+    resize: none;
 }
 
 .SectionCinco .divtres .boton{
