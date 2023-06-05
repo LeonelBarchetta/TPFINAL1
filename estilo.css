@@ -43,6 +43,7 @@ nav div{
 header nav h2{
     font-family: 'PT Sans', sans-serif;
     color: white;
+    margin-left: 0rem;
 }
 
 
@@ -71,6 +72,7 @@ nav .boton a{
     align-items: center;
     justify-content: center;
     color: #DE0748;
+    font-weight: bolder;
 }
 
 nav .boton:hover{
@@ -153,7 +155,7 @@ nav .texto .DivInfo:hover{
 }
 
 .hero .DivInfo p{
-    color: gainsboro;
+    color: #C4D0DF;
     font-family: 'Poppins', sans-serif;
     font-size: 0.6rem;
     margin-right: 4rem;
@@ -320,7 +322,7 @@ nav .texto .DivInfo:hover{
 .SectionTres .DivInfo .DivInfoDos{
     
     width: 13rem;
-    margin-right: 2rem;
+    
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -565,7 +567,7 @@ nav .texto .DivInfo:hover{
 .SectionCinco .texto h2{
     font-family: 'PT Sans', sans-serif;
     font-size: 2.5rem;
-    color: gainsboro;
+    color: #C4D0DF;
     margin-bottom: 2rem;
 }
 
@@ -782,4 +784,361 @@ footer p{
     font-family: 'Poppins', sans-serif;
     color: gray;
     font-size: 0.6rem;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1920px){
+    header nav{
+        height: 5rem;
+    }
+    header h2{
+        font-size: 3rem;
+       
+    }
+    header nav .DivInfo{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    header nav .TextoDos{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    nav .boton {
+        height: 3.5rem;
+        width: 11rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    nav .boton a{
+        font-size: 1rem;
+    }
+    .espacio{
+        padding-bottom: 14rem;
+    }
+    .hero{
+        padding-bottom: 10rem;
+    }
+    .hero .texto{
+        width: 50%;
+    }
+    .hero .texto .TextoDos{
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+        margin-bottom: 2rem;
+    }
+    .hero .texto h1{
+        font-size: 5rem;
+    }
+    .hero .texto h2{
+        font-size: 4rem;
+    }
+    .hero .texto .TextoTres{
+        font-size: 1.4rem;
+        margin-bottom: 11rem;
+    }
+    .hero .DivInfo p{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .hero .DivInfo .icono{
+        height: 4rem;
+        width: 4rem;
+        margin-right: 2rem;
+        border-radius: 0.4rem;
+    }
+    .hero .icono img{
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    .hero .imagen{
+        height: 40rem;
+        width: 38rem;
+        border-radius: 0.5rem;
+    }
+    .hero .imagen img{
+        height: 55rem;
+    }
+    .SectionDos{
+        margin-top: 1rem;
+        padding-bottom: 5rem;
+    }
+    .SectionDos .texto p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .SectionDos .texto h2{
+        font-size: 5rem;
+        margin-bottom: 5rem;
+    }
+    .SectionDos .DivInfo .DivInfoDos{
+        height: 20rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+        padding: 4rem;
+        border-radius: 1rem;
+    }
+    .SectionDos .DivInfoDos img{
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+    .SectionDos .DivInfoDos h3{
+        font-size: 2rem;
+    }
+    .SectionDos .DivInfoDos p{
+        font-size: 1.2rem;
+    }
+    .SectionTres{
+        margin-top: 4rem;
+    }
+    .SectionTres .texto p{
+        font-size: 1.3rem;
+    }
+    .SectionTres .texto h2{
+        font-size: 5rem;
+    }
+    .SectionTres .DivInfo .DivInfoDos{
+        width: 25rem;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+    .SectionTres .DivInfoDos img{
+        height: 16rem;
+        margin-bottom: 1rem;
+    }
+    .SectionTres .DivInfoDos .TextoDos .TextoTres{
+       font-size: 1.3rem;
+    }
+    .SectionTres .TextoDos{
+        margin-bottom: 1rem;
+    }
+    .SectionTres .TextoDos .icono{
+        height: 1.5rem;
+    }
+    .SectionTres .TextoDos p{
+        font-size: 1rem;
+    }
+    .SectionTres .DivInfoDos h3{
+        font-size: 2rem;
+    }
+    .SectionCuatro .texto p{
+        font-size: 1.3rem;
+    }
+    .SectionCuatro .texto h2{
+        font-size: 5rem;
+    }
+    .SectionCuatro .TextoDos p{
+        font-size: 1rem;
+    }
+    .SectionCuatro .TextoDos h2{
+        font-size: 3rem;
+        margin-bottom: 4rem
+    }
+    .SectionCuatro .TextoDos .divdos{
+        width: 30rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 0.6rem;
+    }
+    .SectionCuatro .TextoDos .divtres{
+        padding-bottom: 3rem;
+    }
+    .SectionCuatro .divtres h3{
+        font-size: 2rem;
+    }
+    .SectionCuatro .divdos .divtres p{
+        font-size: 1.1rem;
+    }
+    .SectionCuatro .divdos .divtres strong{
+        height: 1.5rem;
+        width: 3.7rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        border-radius: 0.5rem;
+    }
+    .SectionCuatro .divdos .TextoTres{
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+    .SectionCuatro .divtres .hr1{
+        width: 0.4rem;
+        height: 4rem;
+        margin-left: 0.6rem;
+    }
+    
+    .SectionCuatro .divtres .circle{
+       
+        border: 0.4rem solid #111214;
+        border-radius: 50%;
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+    
+    .SectionCuatro .divtres .hrhorizontal{
+        border: none;
+        background-color: #111214;
+        width: 1.2rem;
+        height: 0.4rem;
+    }
+    
+    .SectionCuatro .divtres .hr2{
+        width: 0.4rem;
+        height: 16rem;
+        margin-left: 0.6rem;
+    }
+    
+    .SectionCuatro .divtres .hr3{
+        width: 0.4rem;
+        height: 18rem;
+        margin-left: 0.6rem;
+    }
+    
+    .SectionCuatro .divtres .hr4{
+        width: 0.4rem;
+        height: 13.5rem;
+        margin-left: 0.6rem;
+    }
+    .SectionCinco{
+        padding-bottom: 7rem;
+    }
+    .SectionCinco .DivInfo .DivInfoDos{
+        border-radius: 0.6rem;
+        padding: 2rem;
+        width: 37%;
+    }
+    .SectionCinco .texto p{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .SectionCinco .texto h2{
+        font-size: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .SectionCinco .DivInfo img{
+        height: 18.4rem;
+        border-radius: 0.7rem;
+        margin-bottom: 2rem;
+    }
+    
+    .SectionCinco .DivInfoDos h3{
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+    }
+    
+    .SectionCinco .DivInfoDos p{
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        
+    }
+    
+    .SectionCinco .DivInfoDos h4{
+        font-size: 1.2rem;
+        font-weight: normal;
+        
+    }
+    
+    .SectionCinco .DivInfoDos strong{
+       font-size: 1.2rem;
+    }
+    
+    .SectionCinco .DivInfoDos .TextoDos{
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    
+    .SectionCinco .DivInfoDos .TextoTres{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .SectionCinco .DivInfoDos .icono{
+        height: 4rem;
+        width: 4rem;
+        margin-right: 1.5rem;
+        border-radius: 0.5rem;
+        
+    }
+    
+    .SectionCinco .DivInfoDos .icono img{
+        height: 1.2rem;
+        width: 1.2rem;
+        
+    }
+    .SectionCinco .DivInfo .DivInfoTres{
+        border-radius: 0.6rem;
+        padding: 2rem;
+        width: 50%;
+        padding-bottom: 5rem;
+    }
+    
+    .SectionCinco .divuno{
+        margin-bottom: 2rem;
+    }
+    
+    .SectionCinco .divuno p{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .SectionCinco .divuno input{
+        width: 21.4rem;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .SectionCinco .divdos p{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .SectionCinco .divdos input{
+        width: 100%;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .SectionCinco .divtres p{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .SectionCinco .divtres textarea{
+        
+        width: 100%;
+        height: 14rem;
+        border-radius: 0.5rem;
+    }
+    
+    .SectionCinco .divtres .boton{
+        height: 3.5rem;
+        width: 13rem; 
+        margin-top: 1rem;
+    }
+    
+    .SectionCinco .divtres .boton p{
+        align-items: center;
+        justify-content: center;
+        color: #DE0748;
+        margin-right: 0.5rem;
+    }
+    
+    .SectionCinco .divtres .boton img{
+        margin: 0;
+        height: 1rem;
+    }
+    footer h2{
+        margin-top: 2rem;
+        font-size: 3.5rem;
+        margin-bottom: 4rem;
+    }
+    footer p{
+        font-size: 1rem;
+    }
 }
