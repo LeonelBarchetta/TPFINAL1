@@ -74,7 +74,7 @@ nav .boton a{
 }
 
 nav .boton:hover{
-    transform: scale(1.1);
+   
     background: linear-gradient(to bottom right, #1f2225, #3d444b);
 }
 
@@ -195,12 +195,20 @@ nav .texto .DivInfo:hover{
 }
 
 .hero .imagen{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
     margin-left: 2rem;
     height: 22rem;
     width: 20rem;
     box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
     background-color: #1e2024;
     background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.hero .imagen img{
+    height: 30rem;
+    margin-left: 2rem;
 }
 
 /* SECCION2 */
@@ -214,7 +222,9 @@ nav .texto .DivInfo:hover{
     border-bottom: 0.09rem solid #111214;
 }
 
+
 .SectionDos .DivInfo{
+    
     display: flex;
     margin-top: 2rem;
     justify-content: space-between;
@@ -235,8 +245,8 @@ nav .texto .DivInfo:hover{
 
 .SectionDos .DivInfo .DivInfoDos{
     height: 10rem;
-    width: 15rem;
-    margin-right: 2rem;
+    width: 10rem;
+   
     margin-bottom: 1rem;
     padding: 2rem;
     border-radius: 0.5rem;
@@ -244,6 +254,8 @@ nav .texto .DivInfo:hover{
     background-color: #1e2024;
     background: linear-gradient(to bottom right, #1E2125, #23272B);
 }
+
+
 
 .SectionDos  .DivInfoDos h3{
     color: #C4D0DF;
@@ -387,8 +399,132 @@ nav .texto .DivInfo:hover{
 .SectionCuatro .texto h2{
     font-family: 'PT Sans', sans-serif;
     font-size: 2.5rem;
-    color: gainsboro;
+    color: #C4D0DF;
 }
+
+.SectionCuatro .TextoDos p{
+    color: #DE0748;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.08rem;
+}
+
+.SectionCuatro .TextoDos h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #C4D0DF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.SectionCuatro .divuno{
+    display: flex;
+}
+
+.SectionCuatro .divtres .hr1{
+    border: none;
+    background-color: #111214;
+    width: 0.2rem;
+    height: 2rem;
+    margin-left: 0.3rem;
+}
+
+.SectionCuatro .divtres .circle{
+   
+    border: 0.2rem solid #111214;
+    border-radius: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.SectionCuatro .divtres .hrhorizontal{
+    border: none;
+    background-color: #111214;
+    width: 0.9rem;
+    height: 0.3rem;
+}
+
+.SectionCuatro .divtres .hr2{
+    border: none;
+    background-color: #111214;
+    width: 0.2rem;
+    height: 12rem;
+    margin-left: 0.3rem;
+}
+
+.SectionCuatro .divtres .hr3{
+    border: none;
+    background-color: #111214;
+    width: 0.2rem;
+    height: 11rem;
+    margin-left: 0.3rem;
+}
+
+.SectionCuatro .divtres .hr4{
+    border: none;
+    background-color: #111214;
+    width: 0.2rem;
+    height: 8rem;
+    margin-left: 0.3rem;
+}
+
+.SectionCuatro .divtres .divcuatro{
+    display: flex;
+    align-items: center;
+}
+.SectionCuatro .TextoDos .divdos{
+    
+    width: 17rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    background-color: #1e2024;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionCuatro .divdos h3{
+    color: #C4D0DF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.SectionCuatro .divdos .divtres{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.09rem solid #1a1d20;
+    padding-bottom: 1rem;
+    
+}
+
+.SectionCuatro .divdos .divtres p{
+    font-family: 'PT Sans', sans-serif;
+    color: gray;
+    font-size: 0.6rem;
+}
+
+.SectionCuatro .divdos .divtres strong{
+    height: 0.7rem;
+    width: 1.7rem;
+    margin-top: 0.4rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #DE0748;
+    font-size: 0.6rem;
+    padding: 0.4rem;
+    box-shadow: -0.2rem -0.2rem 0.7rem #2c3136, 0.5rem 0.2rem 0.7rem #1a1d20;
+    border-radius: 0.2rem;
+    background-color: #1e2024;
+    background: linear-gradient(to bottom right, #1E2125, #23272B);
+}
+
+.SectionCuatro .divdos .TextoTres{
+    margin-top: 1rem;
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* SECTON5 */
 
 .SectionCinco{
@@ -571,6 +707,7 @@ nav .texto .DivInfo:hover{
 }
 
 .SectionCinco .divtres input{
+    
     width: 100%;
     height: 8rem;
     border-radius: 0.3rem;
@@ -611,7 +748,7 @@ nav .texto .DivInfo:hover{
 }
 
 .SectionCinco .divtres .boton:hover{
-    transform: scale(1.1);
+   
     background: linear-gradient(to bottom right, #1f2225, #3d444b);
 }
 
