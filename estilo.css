@@ -93,9 +93,21 @@ nav .texto .DivInfo:hover{
     text-decoration: underline;
 
 }
+
+header .imagen img{
+    height: 5rem;
+    display: none;
+}
 /* SECCION1 */
 .espacio{
     padding-bottom: 8rem;
+}
+.none{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: none;
 }
 .hero{
     background-color: #212428;
@@ -120,7 +132,7 @@ nav .texto .DivInfo:hover{
 
 .hero .texto .TextoDos{
     font-family: 'PT Sans', sans-serif;
-    color: gainsboro;
+    color: #C4D0DF;
     letter-spacing: 0.1rem;
     font-size: 0.8rem;
     margin-bottom: 1rem;
@@ -571,7 +583,7 @@ nav .texto .DivInfo:hover{
     margin-bottom: 2rem;
 }
 
-.SectionCinco .DivInfo img{
+.SectionCinco .DivInfo .imagen{
     height: 9rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
@@ -1017,7 +1029,7 @@ footer p{
         margin-bottom: 4rem;
     }
     
-    .SectionCinco .DivInfo img{
+    .SectionCinco .DivInfo .imagen{
         height: 18.4rem;
         border-radius: 0.7rem;
         margin-bottom: 2rem;
@@ -1140,5 +1152,116 @@ footer p{
     }
     footer p{
         font-size: 1rem;
+    }
+}
+
+@media (max-width:1023px){
+    header nav .texto .TextoDos{
+        display: none;
+    }
+    header nav .texto .boton{
+        display: none;
+    }
+    header .texto .DivInfo{
+        display: none;
+    }
+    header .imagen img{
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: 3rem;
+    }
+    .hero .DivInfo{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .hero .texto .TextoDos{
+        display: none;
+    }
+    .hero .texto h1{
+        display: none;
+    }
+    .none {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    .hero .imagen{
+        height: 18rem;
+        width: 15rem;
+    }
+    .hero .imagen img{
+        height: 23rem;
+    }
+    .none div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .none .TextoDos{
+        font-family: 'PT Sans', sans-serif;
+        color: #C4D0DF;
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .none h1{
+        font-family: 'PT Sans', sans-serif;
+        color: white;
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .none  strong{
+        color: #DE0748;
+        font-weight: bolder;
+    } 
+    
+    .SectionDos .texto h2{
+        margin-bottom: 3rem;
+    }
+    .SectionDos .DivInfo{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+    } 
+    .SectionDos .DivInfo .DivInfoDos{
+        margin-bottom: 2rem;
+        width: 12rem;
+    }
+    .SectionTres .DivInfo {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .SectionTres .DivInfo .DivInfoDos{
+        width: 14rem;
+        margin-bottom: 2rem;
+    }
+    .SectionTres .DivInfoDos img{
+        height: 9rem;
+    }
+    .SectionCuatro .texto h2{
+        margin-bottom: 2rem;
+    }
+    .SectionCinco .DivInfo{
+        flex-direction: column;
+    }
+    .SectionCinco .DivInfo .DivInfoDos{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .SectionCinco .DivInfoDos .imagen{
+        display: none;
+    }
+    .SectionCinco .DivInfo .DivInfoTres{
+        width: 100%;
+    }
+    .SectionCinco .DivInfoTres .divuno input{
+        width: 15rem;
     }
 }
